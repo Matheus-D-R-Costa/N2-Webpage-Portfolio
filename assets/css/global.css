@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 1rem;
+}
+
+.header .title {
+    text-align: center;
+}
