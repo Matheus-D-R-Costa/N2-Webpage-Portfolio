@@ -1,0 +1,29 @@
+.languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-left: 9rem;
+    list-style: none;
+}
+
+.languages li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.languages li::before {
+    content: '';
+    width: 1.2rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url(/assets/img/icons/check.svg);
+    margin-right: .5rem;
+}
