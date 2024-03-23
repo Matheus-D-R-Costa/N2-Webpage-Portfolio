@@ -1,34 +1,22 @@
 .portfolio {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    margin: 2rem;
-    padding: 0;
-    list-style: none;
-
 }
 
 .portfolio li {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin: 0 2rem;
-    font-size: 1rem;
-    padding-left: 2rem;
+
+}
+
+.portfolio li span {
+    text-align: center;
+    margin-right: 2.8rem;
+    font-weight: 700;
 }
 
 .portfolio li a {
-    text-decoration: none;
-}
-
-.portfolio li .title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: .3rem;
+    margin-right: 2.8rem;
 }
 
 .portfolio li .title.github::before {
@@ -40,4 +28,11 @@
     background-size: contain;
     background-image: url(/assets/img/icons/gitanimal.svg);
     margin-right: .5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio {
+        font-size: 1.25rem;
+        margin: 2.30rem;
+    }
 }

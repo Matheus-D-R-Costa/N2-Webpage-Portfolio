@@ -5,7 +5,8 @@
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 .625rem 1.5625rem rgba(0, 0, 0, .3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
+    padding: 1rem;
 }
 
 .header .title {
@@ -33,7 +34,7 @@ border-radius: 50%;
     flex-direction: row;
     align-items: center;
     margin: .5rem;
-    font-size: 1.05rem;
+    font-size: .9rem;
 }
 
 .datas p::before {
@@ -95,4 +96,8 @@ border-radius: 50%;
         max-width: 300px;
         margin: 0 auto;
     }
+    .header .datas p {
+        font-size: 1rem;
+    }
+
 }
