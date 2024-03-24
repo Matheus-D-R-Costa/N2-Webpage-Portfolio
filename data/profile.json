@@ -29,5 +29,11 @@
     "languages": [
         "Português (Fluente)",
         "Inglês (Intermediário)"
+    ],
+    "portfolio": [
+        {
+            "name": "Pokedex",
+            "url": "https://github.com/Matheus-D-R-Costa/Pokedex"
+        }
     ]
 }
